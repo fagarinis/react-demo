@@ -1,0 +1,7 @@
+React necessita di una libreria esterna per chiamate HTTP
+
+
+// AXIOS
+
+// 1) installazione
+npm install axios

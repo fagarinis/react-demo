@@ -1,0 +1,10 @@
+/* Lezione 20 - styling per convenzione si aggiunge .module.css per creare un modulo css */
+
+
+
+/*viene utilizzato con  import styles from './appStyles.module.css';
+
+ e viene utilizzato solo nel component dove lo si importa(non viene ereditato dai children)*/
+.success {
+    color: green;
+}

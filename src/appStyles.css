@@ -1,0 +1,10 @@
+/* Lezione 20 - styling */
+/*se un componente lo importa, viene importato anche da tutti i children*/
+
+.error {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
