@@ -36,6 +36,7 @@ import UserContext from "./components/reuse-code-pattern/context/UserContext";
 import UserContextConsumerDemo from "./components/reuse-code-pattern/context/UserContextConsumerDemo";
 import UserContextConsumerDemo2 from "./components/reuse-code-pattern/context/UserContextConsumerDemo2";
 import PostList from "./components/http/PostList";
+import HookCounterOne from "./components/hooks/useEffect/HookCounterOne";
 
 function App() {
     const user = {name: "persona1", isLoggedIn: true, cf: "MRRADW13LOH512Q"}
@@ -46,7 +47,9 @@ function App() {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
 
-                    <PostList/>
+                    <HookCounterOne/>
+
+                    {/*<PostList/>*/}
 
                     {/*<UserContextConsumerDemo2/>*/}
                     {/*<UserContextConsumerDemo/>*/}
