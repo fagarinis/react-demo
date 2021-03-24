@@ -37,17 +37,31 @@ import UserContextConsumerDemo from "./components/reuse-code-pattern/context/Use
 import UserContextConsumerDemo2 from "./components/reuse-code-pattern/context/UserContextConsumerDemo2";
 import PostList from "./components/http/PostList";
 import HookCounterOne from "./components/hooks/useEffect/HookCounterOne";
+import UseContextDemo from "./components/hooks/useContext/UseContextDemo";
+import CounterWithReducer from "./components/hooks/useReducer/CounterWithReducer";
+import CounterWithReducerTwo from "./components/hooks/useReducer/CounterWithReducerTwo";
+import CounterWithReducerThree from "./components/hooks/useReducer/CounterWithReducerThree";
+import ParentComponentCallbackDemo from "./components/hooks/useCallback/ParentComponentCallbackDemo";
 
 function App() {
     const user = {name: "persona1", isLoggedIn: true, cf: "MRRADW13LOH512Q"}
 
     return (
         <UserContext.Provider value={user}>
+
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
 
-                    <HookCounterOne/>
+                    <ParentComponentCallbackDemo/>
+
+                    {/*<CounterWithReducerThree/>*/}
+                    {/*<CounterWithReducerTwo/>*/}
+                    {/*<CounterWithReducer/>*/}
+
+                    {/*<UseContextDemo/>*/}
+
+                    {/*<HookCounterOne/>*/}
 
                     {/*<PostList/>*/}
 
