@@ -42,6 +42,9 @@ import CounterWithReducer from "./components/hooks/useReducer/CounterWithReducer
 import CounterWithReducerTwo from "./components/hooks/useReducer/CounterWithReducerTwo";
 import CounterWithReducerThree from "./components/hooks/useReducer/CounterWithReducerThree";
 import ParentComponentCallbackDemo from "./components/hooks/useCallback/ParentComponentCallbackDemo";
+import UseMemoDemo from "./components/hooks/useMemo/UseMemoDemo";
+import FocusInput from "./components/hooks/useRef/FocusInput";
+import UseInputDemo from "./components/hooks/custom-hooks/UseInputDemo";
 
 function App() {
     const user = {name: "persona1", isLoggedIn: true, cf: "MRRADW13LOH512Q"}
@@ -53,7 +56,13 @@ function App() {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
 
-                    <ParentComponentCallbackDemo/>
+                    <UseInputDemo/>
+
+                    {/*<FocusInput/>*/}
+
+                    {/*<UseMemoDemo/>*/}
+
+                    {/*<ParentComponentCallbackDemo/>*/}
 
                     {/*<CounterWithReducerThree/>*/}
                     {/*<CounterWithReducerTwo/>*/}
